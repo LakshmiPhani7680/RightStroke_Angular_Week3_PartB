@@ -1,0 +1,1 @@
+Develop a Angular Project that displays a list of Products details (id, name,description,cost) in a grid format. The solution should be able to display unique identifier for each record, and able to show even and odd record with efficient data update technique.
