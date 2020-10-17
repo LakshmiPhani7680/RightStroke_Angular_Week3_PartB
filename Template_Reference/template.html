@@ -1,0 +1,12 @@
+<div class="container">
+    <div>
+        <select #select [(ngModel)]="selectedRanger" (change)="log(select.value)">
+            <option *ngFor="let ranger of rangers" [value]="ranger.id">{{ranger.rangerName}}</option>
+        </select>
+    </div>
+    <br>
+    <div>
+        <button (click)="Str=''">Clear</button>
+    </div>
+    {{Str}}
+</div>
